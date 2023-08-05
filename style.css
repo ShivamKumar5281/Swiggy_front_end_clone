@@ -1,0 +1,365 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(251, 240, 240);
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 2.6fr 2fr;
+}
+.child{
+    
+    /* border: 1px solid black; */
+    height: 500px;
+}
+
+#btn2{
+    position: relative;
+    top:60px;
+    left:640px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+#btn1{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    top:60px;
+    left:620px;
+    background-color: rgb(247, 247, 247);
+    width:60px;
+    height: 30px;
+    font-size: 15px;
+}
+#btn1:hover {
+    color: orangered;
+    cursor: pointer;
+}
+#btn2:hover {
+    
+    cursor: pointer;
+}
+
+#logo{
+    position: absolute;
+    display: inline-block;
+    width:100px;
+    height: 80px;
+    background-image: url(logo.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top:60px;
+    left:100px;
+}
+.e-food{
+    display: inline-block;
+    position: absolute;
+    top:85px;
+    left:200px;
+    font-size: 35px;
+    color: red;
+    font-weight: bolder;
+    
+
+}
+.hungry {
+    position: absolute;
+    top:180px;
+    left: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+
+}
+  .restaurant {
+    position: absolute;
+    top: 240px;
+    left:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: gray;
+  }
+ 
+  #input{
+    position: absolute;
+    top:310px;
+    left:100px;
+    width:530px;
+    height: 60px;
+    border: 1px solid orangered;
+    padding-left: 25px;
+
+    color:orangered;
+  }
+  #input::placeholder{
+    color: gray;
+    font-size: 20px;
+    padding-left: 15px;
+
+    
+  }
+  #btn{
+    box-sizing: border-box;
+    position: absolute;
+    top:310px;
+    left:658px;
+    border:1px solid black;
+    height: 64px;
+    width: 132px;
+    background-color: rgb(240, 86, 30);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #input:focus{
+  outline-color: orangered;
+  }
+  #btn:hover{
+    cursor: pointer;
+  }
+
+  #child2{
+    background-image: url(image_2.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .container2{
+    display: grid;
+    background-color:rgb(23, 10, 10);
+    grid-template-columns: auto auto auto;
+  }
+  .a1{
+    /* border: 1px solid yellowgreen; */
+    height: 410px;
+  }
+  #a5{
+    background-image: url(restaurent1.jpeg.jpeg);
+    background-repeat: no-repeat;
+
+    background-size: 510px;
+  }
+  #a2{
+    background-image: url(restaurent2.jpeg.jpeg);
+    background-repeat: no-repeat;
+    
+    background-size: 510px;
+
+  }
+  #a8{
+    background-image: url(restaurant.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 510px;
+
+  }
+
+  #t1{
+    position: relative;
+    top:348px;
+    left:60px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #t4{
+    position: relative;
+    top:348px;
+    left:60px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+
+  }
+
+  #t5{
+    position: relative;
+    top:348px;
+    left:60px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+
+  }
+
+  .container4{
+
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr;
+  }
+  .c5{
+    /* border: 1px solid green; */
+    height: 580px;
+  }
+
+  #r{
+    position: relative;
+    top:100px;
+    left:50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(71, 62, 62);
+  }
+  #pre{
+    position: relative;
+    font-size: 20px;
+    color: rgb(155, 140, 140);
+    font-weight: lighter;
+    top: -20px;
+  }
+  #button1{
+    position: relative;
+    top:115px;
+    height: 48px;
+    left:150px;
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:180px;
+
+
+
+  }
+  #button2{
+    position: relative;
+    top:115px;
+    height: 48px;
+    left:180px;
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:180px;
+
+
+  }
+
+  #button1:hover{
+    cursor: pointer;
+  }
+  #button2:hover{
+    cursor: pointer;
+  }
+
+  #r2{
+    background-image: url(food1.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 510px;
+
+  }
+
+  #r4{
+    background-image: url(food2.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 510px;
+
+  }
+
+  .container5{
+    display: grid;
+     grid-template-columns: auto auto auto;
+  }
+  .g{
+    /* border:1px solid red; */
+    height: 400px;
+
+  }
+  .i1{
+    background-image: url(pizza.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  .i4{
+    background-image: url(paneer.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .i5{
+    background-image: url(rice.jpeg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .DETAIL{
+    background-color: black;
+  }
+
+  .detail{
+    height: 800px;
+    /* background-color: black; */
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }
+  .main2{
+    height: 465px;
+    border-bottom: 1px solid white;
+  }
+  .main2 > ul {
+    list-style-type: none;
+    line-height: 60px;
+  }
+  .main2>ul>li:nth-child(1){
+    font-size: 25px;
+  }
+
+  .list2 > ul{
+    list-style-type: none;
+    line-height: 60px;
+
+  }
+  .list2>ul>li:nth-child(1){
+    font-size: 25px;
+  }
+
+  li:hover{
+    font-size: 20px;
+    cursor: pointer;
+  }
+   
+  .list4 > ul{
+    list-style-type: none;
+    line-height: 60px;
+
+  }
+
+
+  .list4>ul>li:nth-child(1){
+    font-size: 25px;
+  }
+
+  .main{
+    position: relative;
+    top:-170px;
+    color: white;
+    font-size: 40px;
+    padding-left: 500px;
+    border-bottom: 1px solid white;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  footer >  h2> span {
+    color: Red;
+  }
+  footer > h4 {
+    color : green;
+  }
